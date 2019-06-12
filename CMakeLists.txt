@@ -3,6 +3,7 @@ project(st)
 
 set(CMAKE_C_STANDARD 11)
 set(SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/src)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 
 find_package(X11 REQUIRED)
 find_package(Freetype REQUIRED)
