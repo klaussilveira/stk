@@ -1,3 +1,5 @@
+cmake-build-debug/
+.idea/
 st
 *.o
 config.h
