@@ -6,6 +6,7 @@ include config.mk
 
 SRC = st.c x.c
 OBJ = $(SRC:.c=.o)
+override CFLAGS := -O2 -Wall $(CFLAGS)
 
 all: options st
 
