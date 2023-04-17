@@ -109,6 +109,9 @@ void selextend(int, int, int, int);
 int selected(int, int);
 char *getsel(void);
 
+void kscrolldown(const Arg *);
+void kscrollup(const Arg *);
+
 size_t utf8encode(Rune, char *);
 
 void *xmalloc(size_t);
